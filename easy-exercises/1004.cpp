@@ -1,14 +1,12 @@
-#include <iostream>
-
-using namespace std;
+#include<iostream>
 
 int main () {
-    int a, b, PROD;
+    int A, B, PROD;
 
-    cin >> a;
-    cin >> b;
+    std::cin >> A;
+    std::cin >> B;
 
-    PROD = a * b;
+    PROD = A * B;
 
-    cout << "PROD = " << PROD << endl;
+    std::cout << "PROD = " << PROD << std::endl;
 }
